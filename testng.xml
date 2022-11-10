@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+	 <parameter name="userName" value="kumargreens"></parameter>
+	   <parameter name="password" value="Kumar@123"></parameter>
+	    <parameter name="Location" value="Sydney"></parameter>
+	     <parameter name="Hotels" value="Hotel Sunshine"></parameter>
+	     <parameter name="RoomType" value="Double"></parameter>
+ 
+  
+    <classes>
+      <class name="com.sampletestng.AdactineHotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9534" started-at="2022-10-26T22:35:16Z" finished-at="2022-10-26T22:35:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9534" started-at="2022-10-26T22:35:16Z" finished-at="2022-10-26T22:35:26Z">
+      <class name="com.sampletestng.AdactineHotel">
+        <test-method status="PASS" signature="adactinHotelLogin(java.lang.String, java.lang.String)[pri:0, instance:com.sampletestng.AdactineHotel@553f17c]" name="adactinHotelLogin" duration-ms="8871" started-at="2022-10-26T22:35:16Z" finished-at="2022-10-26T22:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumargreens]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adactinHotelLogin -->
+        <test-method status="PASS" signature="searchDeatils(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sampletestng.AdactineHotel@553f17c]" name="searchDeatils" duration-ms="598" started-at="2022-10-26T22:35:25Z" finished-at="2022-10-26T22:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDeatils -->
+      </class> <!-- com.sampletestng.AdactineHotel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
